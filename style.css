@@ -517,7 +517,6 @@ footer { background: linear-gradient(rgba(22,40,36,.87), rgba(22,40,36,.87)), ur
   :root { --gap: 60px; }
   .container { padding-inline: 20px; }
   .nav-links { display: none; }
-  .hero-video-wrap { display: none; }
   .burger { display: flex; }
   .services-grid { grid-template-columns: 1fr; }
   .mission-inner { grid-template-columns: 1fr; grid-template-rows: auto; gap: 24px; }
