@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scout Portugal — Relocation Services</title>
+  <meta name="description" content="A new life in Portugal made simple. Trusted relocation guidance, housing support, and cultural integration.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="preconnect" href="https://i.ytimg.com">
+  <link rel="dns-prefetch" href="https://www.youtube.com">
+  <link rel="dns-prefetch" href="https://i.ytimg.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+<div class="scroll-progress" id="scroll-progress"></div>
+
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo-link" aria-label="Scout Portugal">
+        <img src="images/logo.png" alt="Scout Portugal" class="logo-img">
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html"    data-i18n="nav.about">About</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <div class="select-wrap">
+          <select id="currency-select" aria-label="Currency">
+            <option value="EUR">€ EUR</option>
+            <option value="USD">$ USD</option>
+            <option value="GBP">£ GBP</option>
+            <option value="BRL">R$ BRL</option>
+            <option value="AUD">A$ AUD</option>
+            <option value="CNY">¥ CNY</option>
+          </select>
+        </div>
+        <div class="select-wrap">
+          <select id="lang-select" aria-label="Language">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="pt">Português</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+        <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul role="list">
+        <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html"    data-i18n="nav.about">About</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>
+        <span data-i18n="hero.line1">Navigating Your Move,</span>
+        <em data-i18n="hero.line2">Anchoring Your Life</em>
+      </h1>
+      <p data-i18n="hero.sub">A new life in Portugal made simple.</p>
+      <div class="hero-ctas">
+        <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta1">Get Started →</a>
+        <a href="services.html" class="btn btn-ghost" data-i18n="hero.cta2">View Our Services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES OVERVIEW -->
+  <section class="services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="pill" data-i18n="services.label">Our Services</span>
+        <h2>
+          <span data-i18n="services.h1">Services Designed for a</span>
+          <em data-i18n="services.h2">Smooth Move to Portugal</em>
+        </h2>
+        <p class="section-sub" data-i18n="services.sub">Thoughtfully designed support for every stage of your move.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-img" style="background-image:url('images/compass.png')"></div>
+          <div class="service-body">
+            <h3 data-i18n="services.s1.title">Consultant Packages</h3>
+            <p data-i18n="services.s1.desc">Personalized relocation guidance designed to help you plan, prepare, and settle into life in Portugal with confidence.</p>
+            <a href="services.html" class="btn btn-outline" style="margin-top:16px" data-i18n="services.s1.cta">See more →</a>
+          </div>
+        </div>
+        <div class="service-card fade-in" style="--delay:0.1s">
+          <div class="service-img" style="background-image:url('images/anchor.png')"></div>
+          <div class="service-body">
+            <h3 data-i18n="services.s2.title">Memberships</h3>
+            <p data-i18n="services.s2.desc">Ongoing access to trusted local insights, events, resources, and community support through Scout Portugal memberships.</p>
+            <a href="services.html" class="btn btn-outline" style="margin-top:16px" data-i18n="services.s2.cta">See more →</a>
+          </div>
+        </div>
+        <div class="service-card fade-in" style="--delay:0.2s">
+          <div class="service-img" style="background-image:url('images/sailboat.jpg')"></div>
+          <div class="service-body">
+            <h3 data-i18n="services.s3.title">On-Demand Support & Tools</h3>
+            <p data-i18n="services.s3.desc">Flexible pay-per-use consultations for quick questions, urgent guidance, and expert relocation support when you need it.</p>
+            <a href="services.html" class="btn btn-outline" style="margin-top:16px" data-i18n="services.s3.cta">See more →</a>
+          </div>
+        </div>
+      </div>
+      <div class="center-cta fade-in" style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+        <a href="services.html" class="btn btn-outline" data-i18n="services.cta">Explore All Services →</a>
+        <a href="contact.html" class="btn btn-primary">Contact Us →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process">
+    <div class="container process-inner">
+      <div class="process-header fade-in">
+        <span class="pill" data-i18n="process.label">Our Process</span>
+        <h2>
+          <span data-i18n="process.h1">A Clear, Supportive Path to Your New Life,</span>
+          <em data-i18n="process.h2">In Portugal</em>
+        </h2>
+      </div>
+      <div class="process-steps">
+        <div class="step fade-in">
+          <div class="step-img" style="background-image:url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80')"></div>
+          <div class="step-body">
+            <span class="step-num">01</span>
+            <h4 data-i18n="process.s1.title">Plan</h4>
+            <p data-i18n="process.s1.desc">We start by understanding your goals, timeline, and priorities to create a clear relocation strategy tailored to you.</p>
+          </div>
+        </div>
+        <div class="step fade-in" style="--delay:0.08s">
+          <div class="step-img" style="background-image:url('https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?auto=format&fit=crop&w=400&q=80')"></div>
+          <div class="step-body">
+            <span class="step-num">02</span>
+            <h4 data-i18n="process.s2.title">Prepare</h4>
+            <p data-i18n="process.s2.desc">We guide you through visas, housing options, and essential setup, making sure everything is ready before your move.</p>
+          </div>
+        </div>
+        <div class="step fade-in" style="--delay:0.16s">
+          <div class="step-img" style="background-image:url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=400&q=80')"></div>
+          <div class="step-body">
+            <span class="step-num">03</span>
+            <h4 data-i18n="process.s3.title">Move</h4>
+            <p data-i18n="process.s3.desc">Arrive in Portugal with confidence, knowing the key details are handled and support is in place from day one.</p>
+          </div>
+        </div>
+        <div class="step fade-in" style="--delay:0.24s">
+          <div class="step-img" style="background-image:url('https://images.unsplash.com/photo-1712867415742-79e31e06ece9?auto=format&fit=crop&w=400&q=80')"></div>
+          <div class="step-body">
+            <span class="step-num">04</span>
+            <h4 data-i18n="process.s4.title">Settle & Integrate</h4>
+            <p data-i18n="process.s4.desc">Through ongoing guidance and your Portuguese Pal, we help you navigate daily life and feel at home in your new environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container center-cta fade-in" style="margin-top:40px; padding-bottom:56px;">
+      <a href="contact.html" class="btn btn-primary">Contact Us →</a>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-img"></div>
+    <div class="cta-overlay"></div>
+    <div class="container cta-content fade-in">
+      <h2>
+        <span data-i18n="cta.h1">Let's Start Your Move to Portugal,</span>
+        <em data-i18n="cta.h2">The Right Way</em>
+      </h2>
+      <p data-i18n="cta.sub">Helping you build a life, not just complete a move.</p>
+      <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="cta.btn">Contact Us →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Scout Portugal" class="footer-logo-img">
+        </div>
+        <p data-i18n="footer.desc">We are committed to providing thoughtful relocation guidance and ongoing support for every stage of the journey to Portugal.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.navLabel">Navigation</h4>
+        <ul role="list">
+          <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html"    data-i18n="nav.about">About</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.socialLabel">Social</h4>
+        <ul role="list">
+          <li><a href="#" data-i18n="footer.fb">Facebook</a></li>
+          <li><a href="#" data-i18n="footer.ig">Instagram</a></li>
+          <li><a href="#" data-i18n="footer.tt">TikTok</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactLabel">Contact</h4>
+        <p><a href="tel:+351965242557">+351 965 242 557</a></p>
+        <p><a href="mailto:admin@scoutportugal.com">admin@scoutportugal.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copy">© 2026 Scout Portugal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

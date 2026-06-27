@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Scout Portugal</title>
+  <meta name="description" content="Built around people, not just paperwork. Learn about Scout Portugal and our co-founders.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+<div class="scroll-progress" id="scroll-progress"></div>
+
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo-link" aria-label="Scout Portugal">
+        <img src="images/logo.png" alt="Scout Portugal" class="logo-img">
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html"    data-i18n="nav.about">About</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <div class="select-wrap">
+          <select id="currency-select" aria-label="Currency">
+            <option value="EUR">€ EUR</option>
+            <option value="USD">$ USD</option>
+            <option value="GBP">£ GBP</option>
+            <option value="BRL">R$ BRL</option>
+            <option value="AUD">A$ AUD</option>
+            <option value="CNY">¥ CNY</option>
+          </select>
+        </div>
+        <div class="select-wrap">
+          <select id="lang-select" aria-label="Language">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="pt">Português</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+        <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul role="list">
+        <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html"    data-i18n="nav.about">About</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ABOUT HERO -->
+  <section class="about">
+    <div class="about-hero">
+      <div class="about-hero-img"></div>
+      <div class="about-hero-overlay"></div>
+      <div class="about-hero-content container fade-in">
+        <span class="pill pill-light" data-i18n="about.label">About Us</span>
+        <h2>
+          <span data-i18n="about.h1">Built Around People,</span>
+          <em data-i18n="about.h2">Not Just Paperwork</em>
+        </h2>
+        <p data-i18n="about.body">Scout Portugal was created to make relocation feel more personal, supported, and human, helping individuals and families move with clarity, confidence, and connection.</p>
+        <a href="contact.html" class="btn btn-ghost" style="margin-top:28px">Contact Us →</a>
+      </div>
+    </div>
+
+    <!-- MISSION -->
+    <div class="mission">
+      <div class="container mission-inner">
+        <div class="mission-head fade-in">
+          <span class="pill" data-i18n="about.mLabel">Our Mission</span>
+          <h3>
+            <span data-i18n="about.mH1">Why We Created</span>
+            <em data-i18n="about.mH2">Scout Portugal</em>
+          </h3>
+        </div>
+        <div class="mission-img fade-in" style="--delay:0.1s"></div>
+        <div class="mission-body fade-in" style="--delay:0.15s">
+          <p data-i18n="about.mBody">To take the pressure and uncertainty out of the relocation process with trusted advisors and friends in Portugal.</p>
+          <ul class="checklist">
+            <li data-i18n="about.b1">Trusted support from planning to arrival.</li>
+            <li data-i18n="about.b2">Helping you settle into life in Portugal.</li>
+            <li data-i18n="about.b3">Personalized guidance through every step.</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary" style="margin-top:28px" data-i18n="hero.cta1">Get Started →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOUNDERS -->
+    <div class="founders">
+      <div class="container founders-inner">
+        <div class="founders-photo-wrap fade-in">
+          <img src="images/founders.avif" alt="Jasmine (Jazz) Wolk and Dr. Melanie Correia Esmann-Schroeder, Co-Founders" class="founders-photo">
+          <div class="founders-caption">
+            <div class="founder-name">
+              <strong>Jasmine (Jazz) Wolk</strong>
+              <span data-i18n="about.cofounder">Co-Founder</span>
+            </div>
+            <div class="founders-divider"></div>
+            <div class="founder-name">
+              <strong>Dr. Melanie Correia Esmann-Schroeder</strong>
+              <span data-i18n="about.cofounder">Co-Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="founders-text fade-in" style="--delay:0.12s">
+          <h3>
+            <span data-i18n="about.fH1">Two Founders,</span>
+            <em data-i18n="about.fH2">One Shared Vision</em>
+          </h3>
+          <div class="founders-bio">
+            <p data-i18n="about.bio1">Scout Portugal was born from a shared moment that so many families experience, but few know how to navigate.</p>
+            <p data-i18n="about.bio2">After meeting through their children's early childhood programs, Jasmine "Jazz" Wolk and Dr. Melanie Correia Esmann-Schroeder quickly realized they were asking the same questions and facing the same challenges.</p>
+            <p data-i18n="about.bio3">With a background in corporate media and client relations, Jazz had relocated from the United States in search of a more intentional lifestyle centered around family, community, and quality of life. Melanie, an anesthesiologist with Portuguese roots, was building a life deeply connected to both culture and family while balancing her passion for healthcare, travel, and creating meaningful spaces to call home.</p>
+            <p data-i18n="about.bio4">What started as conversations at school pickup evolved into something much greater: a shared mission to simplify the relocation journey for other families seeking a fresh start abroad.</p>
+            <p data-i18n="about.bio5">Today, Scout Portugal helps clients confidently transition into life in Portugal through trusted local connections, hands-on guidance, and a deeply personal understanding of what it truly means to start over in a new country.</p>
+          </div>
+        </div>
+        <div class="center-cta fade-in" style="margin-top:36px;">
+          <a href="contact.html" class="btn btn-primary">Contact Us →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE VALUES -->
+  <section class="values">
+    <div class="values-top">
+      <div class="container values-top-inner">
+        <p class="values-tagline fade-in" data-i18n="values.tagline">Scout Portugal was created to make relocation feel more personal, supported, and human, helping individuals and families move with clarity, confidence, and connection.</p>
+        <div class="values-quote-card fade-in" style="--delay:0.15s">
+          <div class="quote-mark">"</div>
+          <p data-i18n="values.quote">We created Scout Portugal to be the kind of support we wished we had when starting over somewhere new.</p>
+          <div class="quote-attribution">
+            <img src="images/jazz.avif" alt="Jasmine Wolk" class="quote-avatar">
+            <div>
+              <strong>Jasmine Wolk</strong>
+              <span data-i18n="about.cofounder">Co-Founder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="values-bottom">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="pill" data-i18n="values.label">Core Values</span>
+          <h2>
+            <span data-i18n="values.h1">What Guides</span>
+            <em data-i18n="values.h2">Our Work</em>
+          </h2>
+        </div>
+        <div class="values-grid">
+          <div class="value-item fade-in">
+            <div class="value-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <span data-i18n="values.v1">Trusted Referrals</span>
+          </div>
+          <div class="value-item fade-in" style="--delay:0.08s">
+            <div class="value-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+            <span data-i18n="values.v2">Personalized Support</span>
+          </div>
+          <div class="value-item fade-in" style="--delay:0.16s">
+            <div class="value-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+            <span data-i18n="values.v3">Meaningful Connection</span>
+          </div>
+          <div class="value-item fade-in" style="--delay:0.24s">
+            <div class="value-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+            <span data-i18n="values.v4">Care Beyond Arrival</span>
+          </div>
+        </div>
+        <div class="center-cta fade-in" style="margin-top:40px;">
+          <a href="contact.html" class="btn btn-primary">Contact Us →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="cta-img"></div>
+    <div class="cta-overlay"></div>
+    <div class="container cta-content fade-in">
+      <h2>
+        <span data-i18n="cta.h1">Let's Start Your Move to Portugal,</span>
+        <em data-i18n="cta.h2">The Right Way</em>
+      </h2>
+      <p data-i18n="cta.sub">Helping you build a life, not just complete a move.</p>
+      <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="cta.btn">Contact Us →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Scout Portugal" class="footer-logo-img">
+        </div>
+        <p data-i18n="footer.desc">We are committed to providing thoughtful relocation guidance and ongoing support for every stage of the journey to Portugal.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.navLabel">Navigation</h4>
+        <ul role="list">
+          <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html"    data-i18n="nav.about">About</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.socialLabel">Social</h4>
+        <ul role="list">
+          <li><a href="#" data-i18n="footer.fb">Facebook</a></li>
+          <li><a href="#" data-i18n="footer.ig">Instagram</a></li>
+          <li><a href="#" data-i18n="footer.tt">TikTok</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactLabel">Contact</h4>
+        <p><a href="tel:+351965242557">+351 965 242 557</a></p>
+        <p><a href="mailto:admin@scoutportugal.com">admin@scoutportugal.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copy">© 2026 Scout Portugal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
