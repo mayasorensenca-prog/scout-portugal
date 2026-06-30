@@ -145,7 +145,7 @@ em { display: block; font-family: 'Playfair Display', Georgia, serif; font-style
 .about-hero { position: relative; min-height: 460px; display: flex; align-items: center; }
 .about-hero-img {
   position: absolute; inset: 0;
-  background: url('https://images.unsplash.com/photo-1655992943803-1486f54a8e85?auto=format&fit=crop&w=1920&q=85') center/cover no-repeat;
+  background: url('images/about-hero.jpg') center/cover no-repeat;
   background-color: var(--dark);
 }
 .about-hero-overlay { position: absolute; inset: 0; background: linear-gradient(100deg, rgba(22,40,36,.88) 0%, rgba(22,40,36,.55) 65%); }
