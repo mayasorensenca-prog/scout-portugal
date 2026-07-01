@@ -529,6 +529,7 @@ footer { background: linear-gradient(rgba(22,40,36,.87), rgba(22,40,36,.87)), ur
   .pkg-grid, .mem-grid, .od-grid { grid-template-columns: 1fr; }
   .pkg-img { height: 80px; }
   .pkg-body { padding: 14px 16px; gap: 8px; }
+  .pkg-card, .mem-card, .od-card { touch-action: pan-y; }
   .tab-bar { flex-direction: column; border-radius: var(--r); max-width: 100%; }
   .contact-inner { grid-template-columns: 1fr; gap: 48px; }
   .form-row { grid-template-columns: 1fr; }
