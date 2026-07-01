@@ -453,8 +453,14 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 });
 
 /* SELECTS */
-document.getElementById('lang-select').addEventListener('change', e => applyLang(e.target.value));
-document.getElementById('currency-select').addEventListener('change', e => applyCurrency(e.target.value));
+document.getElementById('lang-select').addEventListener('change', e => {
+  applyLang(e.target.value);
+  localStorage.setItem('sp_lang', e.target.value);
+});
+document.getElementById('currency-select').addEventListener('change', e => {
+  applyCurrency(e.target.value);
+  localStorage.setItem('sp_currency', e.target.value);
+});
 
 /* PRICING TABS */
 document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -491,5 +497,9 @@ if (contactSection) contactSection.addEventListener('submit', e => {
 });
 
 /* INIT */
-applyLang('en');
-applyCurrency('EUR');
+const savedLang = localStorage.getItem('sp_lang') || 'en';
+const savedCurrency = localStorage.getItem('sp_currency') || 'EUR';
+document.getElementById('lang-select').value = savedLang;
+document.getElementById('currency-select').value = savedCurrency;
+applyLang(savedLang);
+applyCurrency(savedCurrency);
