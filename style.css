@@ -434,7 +434,7 @@ em { display: block; font-family: 'Playfair Display', Georgia, serif; font-style
 .form-success { font-size: .88rem; color: var(--accent); min-height: 1.2em; font-weight: 500; }
 
 /* ===== FOOTER ===== */
-footer { background: linear-gradient(rgba(22,40,36,.87), rgba(22,40,36,.87)), url('images/footer-bg.jpg') center/cover no-repeat; color: rgba(255,255,255,.62); }
+footer { background: #162824; color: rgba(255,255,255,.62); }
 .footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 40px; padding: 64px 32px 48px; max-width: var(--max); margin-inline: auto; }
 .footer-brand p { font-size: .85rem; line-height: 1.7; }
 .footer-col h4 { color: white; font-size: .75rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 14px; }
